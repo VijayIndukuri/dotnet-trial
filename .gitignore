@@ -1,0 +1,52 @@
+# --- .NET artifacts ---
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.swp
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# Visual Studio / VS Code / Rider IDE files
+.vs/
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+
+# DotNet-generated secrets & config
+secrets.json
+*.pfx
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build configuration folders
+Debug*/
+Release*/
+
+# Global tool caches
+.dotnet_toolsrc/
+
+# Reports
+coverage*/
+
+# Local Terraform state (if any)
+*.tfstate*
+
+# --- end of file --- 
